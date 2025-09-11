@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boom Tech - Branding, Web & System Solutions</title>
+    <link rel="stylesheet" href="templatemo-glossy-touch.css">
+</head>
+
+<style>
+    .feature-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    margin: 20px 0;
+}
+
+.feature-image {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Makes the image cover the container without distortion */
+    display: block;
+}
+
+.feature-text {
+    padding: 15px;
+    text-align: center;
+    color: #fff; /* Keep text visible on glass background */
+}
+
+</style>
+<body>
+    <div class="bg-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- NAVIGATION HEADER -->
+    <header>
+        <div class="container">
+            <nav class="glass">
+                <div class="logo" onclick="showPage('home')">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="5" opacity="0.9"/>
+                            <circle cx="32" cy="16" r="4" opacity="0.8"/>
+                            <circle cx="16" cy="32" r="4" opacity="0.7"/>
+                            <circle cx="32" cy="32" r="5" opacity="0.85"/>
+                            <circle cx="24" cy="8" r="2" opacity="1"/>
+                            <circle cx="8" cy="24" r="2" opacity="0.9"/>
+                            <circle cx="40" cy="24" r="2" opacity="0.9"/>
+                            <circle cx="24" cy="40" r="2" opacity="1"/>
+                            <circle cx="8" cy="8" r="1" opacity="0.6"/>
+                            <circle cx="40" cy="8" r="1" opacity="0.6"/>
+                            <circle cx="8" cy="40" r="1" opacity="0.6"/>
+                            <circle cx="40" cy="40" r="1" opacity="0.6"/>
+                        </svg>
+                    </div>
+                    <span>Boom Tech</span>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME PAGE -->
+    <div id="home" class="page active">
+        <div class="container">
+            <div class="content-wrapper">
+
+                <!-- HERO SECTION -->
+                <section class="hero glass">
+                    <div class="hero-image">
+                        <img src="images/templatemo-futuristic-girl.jpg" alt="Modern Technology Interaction" />
+                    </div>
+                    <div class="hero-content">
+                        <h1>Welcome to Boom Tech</h1>
+                        <p>Your go-to Tanzanian company for Web Design, System Development, Branding & Digital Marketing. Modern solutions for your business growth.</p>
+                        <a href="about.html" class="cta-button" onclick="showPage('about')">Learn More</a>
+                    </div>
+                </section>
+
+                <!-- SERVICES / FEATURES WITH IMAGE SECTIONS -->
+                <section class="features">
+                    <div class="feature-card glass">
+                        <div class="feature-image">
+                            <img src="images/img1.jpg" alt="Web Design & Development" />
+                        </div>
+                        <div class="feature-text">
+                            <h3>Web Design & Development</h3>
+                            <p>From basic websites to full e-commerce solutions. Mobile-friendly, SEO-ready, and visually stunning. Prices start from TZS 400,000.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-image">
+                            <img src="images/img2.jpg" alt="System Development" />
+                        </div>
+                        <div class="feature-text">
+                            <h3>System Development</h3>
+                            <p>Custom systems for schools, hospitals, POS, inventory management, and more. Tailored to your workflow. Starting from TZS 1,500,000.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-image">
+                            <img src="images/img3.jpg" alt="Branding & Digital Marketing" />
+                        </div>
+                        <div class="feature-text">
+                            <h3>Branding & Digital Marketing</h3>
+                            <p>Logo design, social media branding, stationery, and promotional materials to grow your brand presence. Packages from TZS 150,000.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-image">
+                            <img src="images/img4.jpg" alt="Video & Motion Graphics" />
+                        </div>
+                        <div class="feature-text">
+                            <h3>Video & Motion Graphics</h3>
+                            <p>Professional video ads, documentaries, and motion graphics. Basic packages start from TZS 1,500,000, premium services available.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-image">
+                            <img src="images/img5.jpg" alt="SEO & Hosting" />
+                        </div>
+                        <div class="feature-text">
+                            <h3>SEO, Hosting & Support</h3>
+                            <p>Domain registration, hosting, SEO optimization, email setup, and ongoing maintenance to keep your website fast and secure.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-image">
+                            <img src="images/img6.jpg" alt="Consulting & Integration" />
+                        </div>
+                        <div class="feature-text">
+                            <h3>Consulting & Integration</h3>
+                            <p>Expert advice and seamless integration with payment gateways, APIs, and other third-party services. Making your digital solution complete.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+        <div class="container">
+            <footer class="glass">
+                <div class="footer-content">
+                    <div class="footer-links">
+                        <a href="#" onclick="showPage('about')">About Us</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">XML Sitemap</a>
+                        <a href="#" onclick="showPage('contact')">Contact</a>
+                    </div>
+                    <div class="copyright">
+                        &copy; 2025 Boom Tech. All rights reserved. Designed for professional Tanzanian businesses.
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+<script src="templatemo-glossy-touch.js"></script>
+</body>
+</html>
