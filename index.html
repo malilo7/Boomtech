@@ -50,39 +50,47 @@
         <div class="shape"></div>
     </div>
 
-    <!-- NAVIGATION HEADER -->
-    <header>
-        <div class="container">
-            <nav class="glass">
-                <div class="logo" onclick="showPage('home')">
-                    <div class="logo-icon">
-                        <svg viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="16" cy="16" r="5" opacity="0.9"/>
-                            <circle cx="32" cy="16" r="4" opacity="0.8"/>
-                            <circle cx="16" cy="32" r="4" opacity="0.7"/>
-                            <circle cx="32" cy="32" r="5" opacity="0.85"/>
-                            <circle cx="24" cy="8" r="2" opacity="1"/>
-                            <circle cx="8" cy="24" r="2" opacity="0.9"/>
-                            <circle cx="40" cy="24" r="2" opacity="0.9"/>
-                            <circle cx="24" cy="40" r="2" opacity="1"/>
-                            <circle cx="8" cy="8" r="1" opacity="0.6"/>
-                            <circle cx="40" cy="8" r="1" opacity="0.6"/>
-                            <circle cx="8" cy="40" r="1" opacity="0.6"/>
-                            <circle cx="40" cy="40" r="1" opacity="0.6"/>
-                        </svg>
-                    </div>
-                    <span>Boom Tech</span>
+<!-- NAVIGATION HEADER -->
+<header>
+    <div class="container">
+        <nav class="glass">
+            <div class="logo" onclick="showPage('home')">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="5" opacity="0.9"/>
+                        <circle cx="32" cy="16" r="4" opacity="0.8"/>
+                        <circle cx="16" cy="32" r="4" opacity="0.7"/>
+                        <circle cx="32" cy="32" r="5" opacity="0.85"/>
+                        <circle cx="24" cy="8" r="2" opacity="1"/>
+                        <circle cx="8" cy="24" r="2" opacity="0.9"/>
+                        <circle cx="40" cy="24" r="2" opacity="0.9"/>
+                        <circle cx="24" cy="40" r="2" opacity="1"/>
+                        <circle cx="8" cy="8" r="1" opacity="0.6"/>
+                        <circle cx="40" cy="8" r="1" opacity="0.6"/>
+                        <circle cx="8" cy="40" r="1" opacity="0.6"/>
+                        <circle cx="40" cy="40" r="1" opacity="0.6"/>
+                    </svg>
                 </div>
-                <div class="nav-links">
-                    <a href="index.html" class="active">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="services.html">Services</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-            </nav>
-        </div>
-    </header>
+                <span>Boom Tech</span>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+
 
     <!-- HOME PAGE -->
     <div id="home" class="page active">
@@ -101,68 +109,83 @@
                     </div>
                 </section>
 
-                <!-- SERVICES / FEATURES WITH IMAGE SECTIONS -->
-                <section class="features">
-                    <div class="feature-card glass">
-                        <div class="feature-image">
-                            <img src="images/img1.jpg" alt="Web Design & Development" />
-                        </div>
-                        <div class="feature-text">
-                            <h3>Web Design & Development</h3>
-                            <p>From basic websites to full e-commerce solutions. Mobile-friendly, SEO-ready, and visually stunning. Prices start from TZS 400,000.</p>
-                        </div>
-                    </div>
+             <!-- SERVICES / FEATURES WITH IMAGE SECTIONS -->
+<section class="features">
 
-                    <div class="feature-card glass">
-                        <div class="feature-image">
-                            <img src="images/img2.jpg" alt="System Development" />
-                        </div>
-                        <div class="feature-text">
-                            <h3>System Development</h3>
-                            <p>Custom systems for schools, hospitals, POS, inventory management, and more. Tailored to your workflow. Starting from TZS 1,500,000.</p>
-                        </div>
-                    </div>
+    <a href="web-design.html" class="feature-link">
+        <div class="feature-card glass">
+            <div class="feature-image">
+                <img src="images/img1.jpg" alt="Web Design & Development" />
+            </div>
+            <div class="feature-text">
+                <h3>Web Design & Development</h3>
+                <p>From basic websites to full e-commerce solutions. Mobile-friendly, SEO-ready, and visually stunning. Prices start from TZS 400,000.</p>
+            </div>
+        </div>
+    </a>
 
-                    <div class="feature-card glass">
-                        <div class="feature-image">
-                            <img src="images/img3.jpg" alt="Branding & Digital Marketing" />
-                        </div>
-                        <div class="feature-text">
-                            <h3>Branding & Digital Marketing</h3>
-                            <p>Logo design, social media branding, stationery, and promotional materials to grow your brand presence. Packages from TZS 150,000.</p>
-                        </div>
-                    </div>
+    <a href="services.html#system-development" class="feature-link">
+        <div class="feature-card glass">
+            <div class="feature-image">
+                <img src="images/img2.jpg" alt="System Development" />
+            </div>
+            <div class="feature-text">
+                <h3>System Development</h3>
+                <p>Custom systems for schools, hospitals, POS, inventory management, and more. Tailored to your workflow. Starting from TZS 1,500,000.</p>
+            </div>
+        </div>
+    </a>
 
-                    <div class="feature-card glass">
-                        <div class="feature-image">
-                            <img src="images/img4.jpg" alt="Video & Motion Graphics" />
-                        </div>
-                        <div class="feature-text">
-                            <h3>Video & Motion Graphics</h3>
-                            <p>Professional video ads, documentaries, and motion graphics. Basic packages start from TZS 1,500,000, premium services available.</p>
-                        </div>
-                    </div>
+    <a href="services.html#branding" class="feature-link">
+        <div class="feature-card glass">
+            <div class="feature-image">
+                <img src="images/img3.jpg" alt="Branding & Digital Marketing" />
+            </div>
+            <div class="feature-text">
+                <h3>Branding & Digital Marketing</h3>
+                <p>Logo design, social media branding, stationery, and promotional materials to grow your brand presence. Packages from TZS 150,000.</p>
+            </div>
+        </div>
+    </a>
 
-                    <div class="feature-card glass">
-                        <div class="feature-image">
-                            <img src="images/img5.jpg" alt="SEO & Hosting" />
-                        </div>
-                        <div class="feature-text">
-                            <h3>SEO, Hosting & Support</h3>
-                            <p>Domain registration, hosting, SEO optimization, email setup, and ongoing maintenance to keep your website fast and secure.</p>
-                        </div>
-                    </div>
+    <a href="services.html#video" class="feature-link">
+        <div class="feature-card glass">
+            <div class="feature-image">
+                <img src="images/img4.jpg" alt="Video & Motion Graphics" />
+            </div>
+            <div class="feature-text">
+                <h3>Video & Motion Graphics</h3>
+                <p>Professional video ads, documentaries, and motion graphics. Basic packages start from TZS 1,500,000, premium services available.</p>
+            </div>
+        </div>
+    </a>
 
-                    <div class="feature-card glass">
-                        <div class="feature-image">
-                            <img src="images/img6.jpg" alt="Consulting & Integration" />
-                        </div>
-                        <div class="feature-text">
-                            <h3>Consulting & Integration</h3>
-                            <p>Expert advice and seamless integration with payment gateways, APIs, and other third-party services. Making your digital solution complete.</p>
-                        </div>
-                    </div>
-                </section>
+    <a href="services.html#seo" class="feature-link">
+        <div class="feature-card glass">
+            <div class="feature-image">
+                <img src="images/img5.jpg" alt="SEO & Hosting" />
+            </div>
+            <div class="feature-text">
+                <h3>SEO, Hosting & Support</h3>
+                <p>Domain registration, hosting, SEO optimization, email setup, and ongoing maintenance to keep your website fast and secure.</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="services.html#consulting" class="feature-link">
+        <div class="feature-card glass">
+            <div class="feature-image">
+                <img src="images/img6.jpg" alt="Consulting & Integration" />
+            </div>
+            <div class="feature-text">
+                <h3>Consulting & Integration</h3>
+                <p>Expert advice and seamless integration with payment gateways, APIs, and other third-party services. Making your digital solution complete.</p>
+            </div>
+        </div>
+    </a>
+
+</section>
+
             </div>
         </div>
     </div>
